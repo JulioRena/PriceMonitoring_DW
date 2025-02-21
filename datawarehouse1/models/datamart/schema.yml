@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: dbsales_e6y3
+    schema: public
+    tables:
+      - name: commodities
+        description: "tabela que contém dados historicos de commodities"
+        columns:
+        - name: Date
+          description: "record date"
+        - name: Close
+          description: "commodity closed price"
+        - name: simbolo
+          description: "commodity ticker (symbol)"
